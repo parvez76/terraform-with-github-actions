@@ -11,14 +11,12 @@ This project demonstrates how to create and manage infrastructure using Terrafor
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Project Structure](#project-structure)
 - [Terraform Modules](#terraform-modules)
 - [AWS S3 Remote Backend](#aws-s3-remote-backend)
 - [GitHub Actions Workflow](#github-actions-workflow)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
