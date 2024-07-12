@@ -27,7 +27,11 @@ jobs:
         id: validate
         run: terraform validate
         working-directory: ./iaac
-      - name: Terraform Apply
-        id: apply
-        run: terraform apply --auto-approve
+      # - name: Terraform Apply
+      #   id: apply
+      #   run: terraform apply --auto-approve
+      #   working-directory: ./iaac
+      - name: Terraform Destroy
+        id: destroy
+        run: terraform destroy --auto-approve
         working-directory: ./iaac
