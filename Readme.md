@@ -64,8 +64,6 @@ The GitHub Actions workflow is defined in `.github/workflows/deploy.yml` and inc
 
 git clone https://github.com/parvez76/terraform-with-github-actions
 
-cd your-repository
-
 cd iaac
 
 terraform init
